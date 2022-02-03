@@ -21,9 +21,10 @@ public class Punto {
     public double distancia() {
         return Math.sqrt(coordinadaX * coordinadaX + coordinadaY * coordinadaY);
     }
-    public double distanciaEntre(Punto punto2){
 
-        return Math.sqrt(Math.pow((punto2.coordinadaX-coordinadaX),2) + Math.pow((punto2.coordinadaY-coordinadaY),2));
+    public double distanciaEntre(Punto punto2) {
+
+        return Math.sqrt(Math.pow((punto2.coordinadaX - coordinadaX), 2) + Math.pow((punto2.coordinadaY - coordinadaY), 2));
     }
 
 

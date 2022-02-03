@@ -18,7 +18,7 @@ public class Main {
         punto2.setCoordinadaY(sc.nextInt());
 
         punto1.igual(punto2);
-        System.out.println( punto1.distancia());
+        System.out.println(punto1.distancia());
         System.out.println(punto1.distanciaEntre(punto2));
     }
 }
